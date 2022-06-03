@@ -19,8 +19,8 @@ html,h1,h2,h3,h4,h5,h6,a{
 	margin-right: 1em !important;
 }
 .nav-link:hover{
-	background: #f4f4f4;
-	color: #f97300;
+	background: #ed7474;
+	color: #211409;
 
 }
 .navbar-collapse{
