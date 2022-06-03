@@ -9,10 +9,10 @@ html,h1,h2,h3,h4,h5,h6,a{
 	font-family: "Raleway";
 }
 .navbar{
-	background:#03a582;
+	background:#cc1c05;
 }
 .nav-link , .navbar-brand{
-	color: #f4f4f4;
+	color: #627a08;
 	cursor: pointer;
 }
 .nav-link{
