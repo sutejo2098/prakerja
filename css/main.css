@@ -1,3 +1,4 @@
+/* @import url('https://fonts.googleapis.com/css?family=Raleway'); */
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body{
@@ -33,8 +34,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 /*header style*/
 .header{
 	position: relative;
-	background-image: url('../images/headerback.jpg');
-
+	/* background-image: url('../images/headerback.jpg'); */
 	background-size: cover;
 	background-position: center;
 }
@@ -48,23 +48,23 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 .description{
     position: absolute;
-    top: 30%;
+    top: 10%;
     margin: auto;
     padding: 2em;
 
 }
 .description h1{
-	color:#F97300 ;
+	color:#cc1c05 ;
 }
 .description p{
-	color:#666;
+	color:rgba(5, 5, 5, 0.884);
 	font-size: 20px;
 	width: 50%;
 	line-height: 1.5;
 }
 .description button{
-	border:1px  solid #F97300;
-	background:#F97300;
+	border:1px  solid #cc1c05;
+	background:#cc1c05;
 	color:#fff;
 }
 .about{
@@ -73,13 +73,13 @@ html,h1,h2,h3,h4,h5,h6,a{
 	position: relative;
 }
 .about h1{
-	color:#F97300;
+	color:#cc1c05;
 	margin: 2em;
 }
 .about img{
 	height: 100%;
     width: 100%;
-    border-radius: 50%
+    border-radius: 25%
 }
 .about span{
 	display: block;
@@ -89,28 +89,28 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 .about .desc{
 	padding: 2em;
-	border-left:4px solid #10828C;
+	border-left:4px solid #535353;
 }
 .about .desc h3{
-	color: #10828C;
+	color: #020202;
 }
 .about .desc p{
 	line-height:2;
-	color:#888;
+	color:rgba(14, 13, 13, 0.877);
 }
 
 
 /*Portfolio*/
 .portfolio{
-	margin: 4em 0;
+	margin: 4em;
     position: relative;	
 }
 .portfolio h1{
-	color:#F97300;
+	color:#cc1c05;
 	margin: 2em;	
 }
 .portfolio img{
-	 height: 15rem;
+	 height: 30rem;
 	 width: 100%;
 	 margin: 1em;
 
@@ -125,15 +125,15 @@ html,h1,h2,h3,h4,h5,h6,a{
 	position: relative;	
 }
 .blog h1{
-	color:#F97300;
+	color:#cc1c05;
 	margin: 2em;	
 }
 .blog .card{
-	box-shadow: 0 0 20px #ccc;
+	box-shadow: 0 0 20px rgb(136, 128, 128);
 }
 .blog .card img{
 	width: 100%;
-	height: 12em;
+	height: 20em;
 }
 @media and (max-width: 768px){
  .team .item img{
@@ -141,7 +141,7 @@ html,h1,h2,h3,h4,h5,h6,a{
  }	
 }
 .blog .card-title{
-	color:#F97300;
+	color:#cc1c05;
 	 
 }
 .blog .card-body{
@@ -152,8 +152,13 @@ html,h1,h2,h3,h4,h5,h6,a{
 	position: relative;
 
 }
+
+.blog .card-link{
+	color:#cc1c05;
+}
+
 .team h1{
-	color:#F97300;
+	color:#cc1c05;
 	margin: 2em;	
 }
 .team .item{
@@ -161,12 +166,12 @@ html,h1,h2,h3,h4,h5,h6,a{
 	overflow: hidden;	
 }
 .team .des{
-	background: #F97300;
-	color: #fff;
+	background: #cc1c05;
+	color: rgb(10, 10, 10);
 	text-align: center;
-	border-top-right-radius: 93%;
-	transition:.3s ease-in-out;
-	position: absolute;
+	border-top-right-radius: 50%;
+	transition:.6s ease-in-out;
+	position: relative;
 	width: 88%;
 	bottom: 24px;
 
@@ -188,13 +193,13 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 .contact-form h1{
 	padding:2em 1px;
-	color: #F97300; 
+	color: #cc1c05; 
 }
 .contact-form .right{
 	max-width: 600px;
 }
 .contact-form .right .btn-secondary{
-	background:  #F97300;
+	background:  #cc1c05;
 	color: #fff;
 	border:0;
 }

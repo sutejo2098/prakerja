@@ -7,69 +7,209 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sutejo Prakerja</title>
     <!-- add bootstrap css file -->
-    <!-- Komentar -->
-
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 </head>
 
 <body>
-    <header>
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg fixed-top ">
-            <a class="navbar-brand" href="#">Home</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav mr-4">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                    <li class="nav-item">
-                        <a class="nav-link" data-value="about" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " data-value="portfolio" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " data-value="blog" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " data-value="team" href="#">
-                            Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " data-value="contact" href="#">Contact</a>
-                    </li>
-                </ul>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-4">
 
+                <li class="nav-item">
+                    <a class="nav-link" data-value="about" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="portfolio" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="blog" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="team" href="#team">
+                        Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="contact" href="#contact">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header class="header " style="height: 692px;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="description ">
+                <h1>
+                    Welcome to our services....
+                    <p>
+                        SmartWeb is a leading web design agency with an award-winning design team that creates
+                        innovative, effective websites that capture your brand, improve your conversion rates, and
+                        maximize your revenue to help grow your business and achieve your goals.
+                    </p>
+                    <button class="btn btn-outline-secondary btn-lg">See more</button>
+                </h1>
             </div>
-        </nav>
+        </div>
     </header>
-    <main style="height: 100px;">
-        <section id="home" >
-            <!-- <div class="overlay"></div> -->
-            <div class="container">
-                <div class="description ">
-                    <h1>
-                        Welcome to our services....
-                        <p>
-                            SmartWeb is a leading web design agency with an award-winning design team that creates
-                            innovative, effective websites that capture your brand, improve your conversion rates, and
-                            maximize your revenue to help grow your business and achieve your goals.
-                        </p>
-                        <button class="btn btn-outline-secondary btn-lg">See more</button>
-                    </h1>
+
+    <!-- about section -->
+    <div class="about" id="about">
+        <div class="container">
+            <h1 class="text-center">About Me</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="images/me.png" class="img-fluid">
+                    <span class="text-justify">Front End Developer</span>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 desc">
+
+                    <h3>Sutejo</h3>
+                    <p>
+                        Creative and self-starting Front-End Developer with 5 years experience building stable eCommerce
+                        websites and apps in fast-paced, collaborative environments. Highly skilled in
+                        HTML/CSS/JavaScript/JQuery and working knowledge of Photoshop. Well-versed in Scrum and Agile.
+                        Innovative Front End Developer with 5 years experience building and maintaining responsive
+                        websites in the recruiting industry. Proficient in HTML, CSS, jQuery, JavaScript and Angualr;
+                        plus modern libraries and frameworks. Passionate about usability and possess working knowledge
+                        of Adobe Photoshop & Sketch.
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
 
-    </main>
+    <!-- portfolio -->
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="text-center">SmartWeb Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <img src="images/port1.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <img src="images/port2.webp" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog section -->
+    <div class="blog" id="blog">
+        <div class="container">
+            <h1 class="text-center">SmartWeb Blog</h1>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="images/blog1.jpg" class="img-fluid">
+                        </div>
+
+                        <div class="card-body">
+                            <h4 class="card-title">Web Developer Must Know</h4>
+                            <p class="card-text">
+                                Web development comes with a huge set of rules and techniques every website developer
+                                should know about. If you want a website to look and function as you wish them to, you
+                                need to get familiar with web technologies that will help you achieve your goal.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://tms-outsource.com/blog/posts/web-technologies/" class="card-link">Read
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="images/blog2.webp" class="img-fluid">
+                        </div>
+
+                        <div class="card-body">
+                            <h4 class="card-title">Web Development Trends to Expect in 2022</h4>
+                            <p class="card-text">
+                                In 1983, the Internet was born. Now, there are more than 1.58 billion websites and
+                                approximately 5 billion daily active users on the Internet.
+                                Over the decades, website development has evolved and continues to shift rapidly.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://blog.hubspot.com/website/web-development-trends" class="card-link">Read
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team section -->
+	<div class="team" id="team">
+		<div class="container">
+			<h1 class="text-center">Our Team</h1>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 item">
+					<img src="images/me.png" class="img-fluid" alt="team">
+					<div class="des">
+						Sutejo
+					</div>
+					<span class="text-muted">Front End Developer</span>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 item">
+					<img src="images/he.png" class="img-fluid" alt="team">
+					<div class="des">
+						Sukarno
+					</div>
+					<span class="text-muted">Back End Developer</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact form -->
+	<div class="contact-form" id="contact">
+		<div class="container">
+			<form>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<h1>Get in Touch</h1>
+					</div>
+					<div class="col-lg-8 col-md-8 col-sm-12 right">
+						<div class="form-group">
+							<input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com"
+								name="email">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control form-control-lg">
+				   	 </textarea>
+						</div>
+						<input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+
 
     <footer class="p-4">
-      
+
     </footer>
     <!-- JS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
